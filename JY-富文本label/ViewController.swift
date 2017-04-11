@@ -9,10 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var textLabel: JYLabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        textLabel.text = "哈哈哈 http://1010101011.com你哈"
     }
 
     override func didReceiveMemoryWarning() {
